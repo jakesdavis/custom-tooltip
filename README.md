@@ -18,12 +18,14 @@ Include plugin ,
 	<script type="text/javascript" src="custom-tooltip.js" />
 	
 Enable Tooltip for an element,
+
 	var tooltipOptions = {
 		"position": "n"
 	};
 	$("#elementID").customTooltip(tooltipOptions);
 	
 Optional configurations,
+
 	"border": "1px",
 	"position": "n",
 	events: {
@@ -59,7 +61,7 @@ Optional configurations,
 		"background": "#F2F2F2"
 	}
 	
-Optional configurations-In detail,
+Optional configurations in detail,
 
 ####border
 
@@ -79,7 +81,7 @@ Optional configurations-In detail,
  - Expected: Boolean values
  - Function: Set trigger for displaying the tooltip
 
- ####events - click
+####events - click
 
  - Default: `true`  
  - Expected: Boolean values
