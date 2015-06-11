@@ -1,0 +1,33 @@
+.tooltip-wrapper-global {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.tooltip-wrapper-global .tooltip-content-global{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+.tooltip-wrapper-global .tooltip-arrow-global {
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+}
+
+.tooltip-wrapper-global .tooltip-arrow-global .tooltip-arrow-inner-global{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    position: absolute;
+}

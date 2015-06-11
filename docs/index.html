@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JSDoc: Home</title>
+
+        <script src="scripts/prettify/prettify.js"></script>
+        <script src="scripts/prettify/lang-css.js"></script>
+        <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+        <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    </head>
+
+    <body>
+
+        <div id="main" style="width:85%">
+
+
+            <section>
+                <article><h1 style="margin-left: 0;">Custom Tooltip Plugin</h1><p>Custom Tooltip plugin is able to create dynamic tooltips for a container.</p>
+                    <h4>Version:</h4><p>1.0</p>
+                    <h4>Author:</h4><p>jakesdavis (Jakes Davis)</p>
+                    <h4>Dependency:</h4><p>jquery-2.1.1.js</p>
+                    <h3>Usage</h3><pre class="prettyprint source"><code>$("#elementID").customTooltip();</code></pre>
+					<pre class="prettyprint source"><code>$("#elementID").customTooltip({
+	"position": "n"
+});</code></pre>
+                   
+                    
+                    <h3>Parameters</h3>
+                    <table class="params" style=" width: 100%; ">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th class="last">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="name"><code>border</code></td>
+                                <td class="type">
+                                    <span class="param-type">String</span>
+                                </td>
+                                <td class="description last">Set border width of tooltip-box</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>position</code></td>
+                                <td class="type">
+                                    <span class="param-type">String</span>
+                                </td>
+                                <td class="description last">Default position of tooltip wrt container</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>events - hover</code></td>
+                                <td class="type">
+                                    <span class="param-type">Boolean</span>
+                                </td>
+                                <td class="description last">Set trigger for displaying the tooltip</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>events - click</code></td>
+                                <td class="type">
+                                    <span class="param-type">Boolean</span>
+                                </td>
+                                <td class="description last">Set trigger for displaying the tooltip</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>events - focus</code></td>
+                                <td class="type">
+                                    <span class="param-type">Boolean</span>
+                                </td>
+                                <td class="description last">Set trigger for displaying the tooltip</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>animate - effect - show</code></td>
+                                <td class="type">
+                                    <span class="param-type">String</span>
+                                </td>
+                                <td class="description last">effect to show on display of tooltip</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>animate - effect - hide</code></td>
+                                <td class="type">
+                                    <span class="param-type">String</span>
+                                </td>
+                                <td class="description last">effect to show on hide of tooltip</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>animate - duration</code></td>
+                                <td class="type">
+                                    <span class="param-type">Integer</span>
+                                </td>
+                                <td class="description last">Duration of animation effect</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>wrapper</code></td>
+                                <td class="type">
+                                    <span class="param-type">Object</span>
+                                </td>
+                                <td class="description last">Basic Css Styles for the tooltip wrapper</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>content</code></td>
+                                <td class="type">
+                                    <span class="param-type">Object</span>
+                                </td>
+                                <td class="description last">Basic Css Styles for the tooltip content area</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>arrow</code></td>
+                                <td class="type">
+                                    <span class="param-type">Object</span>
+                                </td>
+                                <td class="description last">Basic Css Styles for the tooltip arrow container</td>
+                            </tr>
+                            <tr>
+                                <td class="name"><code>arrow-inner</code></td>
+                                <td class="type">
+                                    <span class="param-type">Object</span>
+                                </td>
+                                <td class="description last">Basic Css Styles for the tooltip arrow</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <h3>border</h3>
+                    <p>Set border width of tooltip-box</p>
+                    <p><code>Default Value : 1px</code></p>
+                    <code>Expected Value: 1px, 2px, etc</code>
+					
+					<h3>position</h3>
+                    <p>default position of tooltip wrt container</p>
+                    <p><code>Default Value : n</code></p>
+                    <code>Expected Value:  n|e|w|s|nw|ne|sw|se|g</code>
+					
+					<h3>events - hover</h3>
+                    <p>Set trigger for displaying the tooltip</p>
+                    <p><code>Default Value : true</code></p>
+                    <code>Expected Value: true|false</code>
+					
+					<h3>events - click</h3>
+                    <p>Set trigger for displaying the tooltip</p>
+                    <p><code>Default Value : false</code></p>
+                    <code>Expected Value: true|false</code>
+					
+					<h3>events - focus</h3>
+                    <p>Set trigger for displaying the tooltip</p>
+                    <p><code>Default Value : false</code></p>
+                    <code>Expected Value: true|false</code>
+					
+					<h3>animate - effect - show</h3>
+                    <p></p>
+                    <p><code>Default Value : fade</code></p>
+                    <code>Expected Value: fade</code>
+					
+					<h3>animate - effect - hide</h3>
+                    <p></p>
+                    <p><code>Default Value : fade</code></p>
+                    <code>Expected Value: fade</code>
+					
+					<h3>animate - duration</h3>
+                    <p></p>
+                    <p><code>Default Value : 500</code></p>
+                    <code>Expected Value: Integer</code>
+					
+					<h3>wrapper</h3>
+                    <p></p>
+                    <p><code>Basic Css Styles for the tooltip wrapper</code></p>
+					
+					<h3>content</h3>
+                    <p></p>
+                    <p><code>Basic Css Styles for the tooltip wrapper</code></p>
+					
+					<h3>arrow</h3>
+                    <p></p>
+                    <p><code>Basic Css Styles for the tooltip wrapper</code></p>
+					
+					<h3>arrow-inner</h3>
+                    <p></p>
+                    <p><code>Basic Css Styles for the tooltip wrapper</code></p>
+
+                    <hr>
+					
+                    <h2>Browser Support</h2>
+                    <p>Chrome, Mozilla firefox</p>
+					
+					<hr>
+
+                    <h2>License</h2><p>The MIT License (MIT)</p>
+                    <p>Copyright (c) 2015 jakesdavis</p>
+                    <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
+                        in the Software without restriction, including without limitation the rights
+                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                        copies of the Software, and to permit persons to whom the Software is
+                        furnished to do so, subject to the following conditions:</p>
+                    <p>The above copyright notice and this permission notice shall be included in all
+                        copies or substantial portions of the Software.</p>
+                    <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                        SOFTWARE.</p></article>
+            </section>
+
+
+
+
+
+
+        </div>
+        <!--
+        <nav>
+            <h2><a href="myindex.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Callout.html">PrintWeb</a></li></ul>
+        </nav>
+        
+        <br class="clear">
+        
+        <footer>
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0-dev</a> on Sun Mar 08 2015 21:54:23 GMT+0530 (IST)
+        </footer>
+        -->
+        <script> prettyPrint();</script>
+        <script src="scripts/linenumber.js"></script>
+    </body>
+</html>

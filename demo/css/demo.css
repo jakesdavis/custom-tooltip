@@ -1,0 +1,25 @@
+html, body, div {
+    margin:0;
+    padding: 0;
+}
+.section {
+    width: 100%;
+    text-align: center;
+}
+
+.sub-section{
+    width: 48%;
+    display: inline-block;
+    height: 10px;
+}
+
+.sub-section > span {
+	display:block;
+}
+
+.section .sub-section:nth-child(2n){
+    margin-left: 5px;
+}
+.section .sub-section:nth-child(2n+1){
+    margin-right: 5px;
+}
