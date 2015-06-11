@@ -10,22 +10,22 @@ jakesdavis (Jakes Davis)
 ## How to use:
 
 Include jQuery ,
-
+```sh
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js" />
-
+```
 Include plugin ,
-
+```sh
 	<script type="text/javascript" src="custom-tooltip.js" />
-	
+```	
 Enable Tooltip for an element,
-
+```sh
 	var tooltipOptions = {
 		"position": "n"
 	};
 	$("#elementID").customTooltip(tooltipOptions);
-	
+```	
 Optional configurations,
-
+```sh
 	"border": "1px",
 	"position": "n",
 	events: {
@@ -60,7 +60,7 @@ Optional configurations,
 		"box-shadow": "0px 0px 5px 0px #777",
 		"background": "#F2F2F2"
 	}
-	
+```	
 Optional configurations in detail,
 
 ####border
